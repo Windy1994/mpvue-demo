@@ -1,5 +1,5 @@
 {
-    "pages": ["pages/my/main", "pages/home/main", "pages/love/main"],
+    "pages": ["pages/home/main", "pages/my/main", "pages/love/main"],
     "tabBar": {
         "list": [
             {
@@ -26,8 +26,8 @@
     },
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
-        "navigationBarTextStyle": "black"
+        "navigationBarBackgroundColor": "#e4393c",
+        "navigationBarTitleText": "佩奇的小仙女",
+        "navigationBarTextStyle": "#fff"
     }
 }

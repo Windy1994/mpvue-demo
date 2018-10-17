@@ -1,8 +1,5 @@
 <script>
-import qcloud from "wafer2-client-sdk"
-import { get } from "@/utils/httpSvc"
-import { lgTip } from "@/utils/modalSvc"
-import { loginUrl } from "@/config/urlConfig"
+
 export default {
     components: {
     },
@@ -11,27 +8,12 @@ export default {
         }
     },
     async created() {
-        let user = wx.getStorageSync('userInfo')
-        // 设置登录地址
-        if (!user) {
-            qcloud.setLoginUrl(loginUrl);
-            qcloud.login({
-                success: function (userInfo) {
-                    console.log('登录成功', userInfo);
-                    lgTip('登陆成功')
-                    wx.setStorageSync('userInfo', userInfo)
-                },
-                fail: function (err) {
-                    console.log('登录失败', err);
-                }
-            });
-        }
-
+        
     },
 }
 </script>
 
-<style>
+<style lang="scss">
 .container {
     height: 100%;
     display: flex;
@@ -47,5 +29,16 @@ export default {
     -moz-transition: width 2s;
     -webkit-transition: width 2s;
     -o-transition: width 2s;
+}
+.lg-btn {
+    width: 85%;
+    border-color: #e5e5e5;
+    background: #fff;
+    font-size: 32rpx;
+    color: #666;
+    &.lg-btn-primary {
+        background: #e4393c !important;
+        color: #fff !important; 
+    }
 }
 </style>
