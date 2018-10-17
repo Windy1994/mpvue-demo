@@ -1,6 +1,6 @@
 <template>
     <div class="home-wrap">
-        <div class="user-avatar"></div>
+        <p>首页</p>
     </div>
 </template>
 

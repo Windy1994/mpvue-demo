@@ -12,7 +12,7 @@
                 "pagePath": "pages/love/main",
                 "iconPath": "static/imgs/heart.png",
                 "selectedIconPath": "static/imgs/heart-active.png",
-                "text": "爱"
+                "text": "心"
             },
             {
                 "pagePath": "pages/my/main",
