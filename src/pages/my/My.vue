@@ -23,7 +23,7 @@ export default {
     data() {
         return {
             user: {
-                avatarUrl: "../../../static/imgs/un-login.png",
+                avatarUrl: "/static/imgs/un-login.png",
                 nickName: "未登录"
             }
         }
