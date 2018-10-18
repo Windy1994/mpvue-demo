@@ -61,6 +61,7 @@ export default {
 <style lang="scss" scoped>
 .my-wrap {
     padding-top: 50rpx;
+    background: red;
     .user-info {
         text-align: center;
         .user-avatar {
