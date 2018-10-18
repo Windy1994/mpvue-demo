@@ -7,7 +7,7 @@
         <div v-if="!user.gender" class="user-login">
             <button class="lg-btn lg-btn-primary" open-type="getUserInfo" lang="zh_CN" @getuserinfo="onGetUserInfo">点击登录</button>
         </div>
-        <!-- <button @click="code">扫码</button> -->
+        <button class="lg-btn lg-btn-primary" v-if="user.gender" @click="scanBook">扫码添加图书</button>
     </div>
 </template>
 
@@ -43,12 +43,15 @@ export default {
             self.user = e.mp.detail.userInfo
             wx.setStorageSync('userInfo', e.mp.detail.userInfo)
         },
-        code() {
+        scanBook() {
             wx.scanCode({
                 success: (res) => {
                     console.log(res)
                 }
             })
+        },
+        addBook(isbn) {
+
         }
     },
 
