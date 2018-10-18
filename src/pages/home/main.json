@@ -1,3 +1,23 @@
 {
-    "navigationBarTitleText": "首页"
+    "navigationBarTitleText": "首页",
+    "usingComponents": {
+        "i-card": "../../../static/iViewComponents/card/index",
+        "i-steps": "../../../static/iViewComponents/steps/index",
+        "i-step": "../../../static/iViewComponents/step/index",
+        "i-button": "../../../static/iViewComponents/button/index",
+        "i-divider": "../../../static/iViewComponents/divider/index",
+        "i-panel": "../../../static/iViewComponents/panel/index",
+        "i-toast": "../../../static/iViewComponents/toast/index",
+        "i-message": "../../../static/iViewComponents/message/index",
+        "i-icon": "../../../static/iViewComponents/icon/index",
+        "i-cell-group": "../../../static/iViewComponents/cell-group/index",
+        "i-cell": "../../../static/iViewComponents/cell/index",
+        "i-grid": "../../../static/iViewComponents/grid/index",
+        "i-grid-item": "../../../static/iViewComponents/grid-item/index",
+        "i-grid-icon": "../../../static/iViewComponents/grid-icon/index",
+        "i-grid-label": "../../../static/iViewComponents/grid-label/index",
+        "i-row": "../../../static/iViewComponents/row/index",
+        "i-col": "../../../static/iViewComponents/col/index",
+        "i-tag": "../../../static/iViewComponents/tag/index"
+      }
 }
